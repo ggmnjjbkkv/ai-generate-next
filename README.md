@@ -22,7 +22,7 @@ git clone https://github.com/ggmnjjbkkv/ai-generate-next.git
 Install the required dependencies. The necessary dependencies are listed in the requirements.txt file.
 
 Copy code
-* npm i
+npm i
 Usage
 Once you have installed the dependencies, you can start generating text using AI Generate Next. The main script for text generation is generate.py. Run this script and follow the prompts to generate text.
 
