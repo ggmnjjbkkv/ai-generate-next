@@ -22,7 +22,7 @@ export async function POST(
       return new NextResponse("Unauthorized", { status: 401 });
     }
 
-    if (!configuration.apiKey) {
+    if (!openai.apiKey) {
       return new NextResponse("OpenAI API Key not configured.", { status: 500 });
     }
 
@@ -55,7 +55,7 @@ export async function POST(
       await incrementApiLimit();
     }
 
-    return NextResponse.json(response.data.data);
+    return NextResponse.json(response.data);
   } catch (error) {
     console.log('[IMAGE_ERROR]', error);
     return new NextResponse("Internal Error", { status: 500 });
