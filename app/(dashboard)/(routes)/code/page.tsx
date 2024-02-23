@@ -123,7 +123,7 @@ const CodePage = () => {
                     <code className="p-1 rounded-lg bg-black/10" {...props} />
                   )
                 }} className="overflow-hidden text-sm leading-7">
-                  {message.content || ""}
+                  {message.content}
                 </ReactMarkdown>
               </div>
             ))}
