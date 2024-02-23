@@ -9,14 +9,14 @@ Easy Setup: Clone the repository and follow the instructions in the Installation
 Customizable: Adjust parameters to fine-tune the generated content.
 Installation
 Clone this repository:
-# git clone https://github.com/ggmnjjbkkv/ai-generate-next.git
+-- git clone https://github.com/ggmnjjbkkv/ai-generate-next.git
 
 Install dependencies:
-# npm i
+-- npm i
 
 
 Run the AI model:
-# npm run dev
+-- npm run dev
 
 Usage
 Customize the input prompts in generate.py.
